@@ -49,4 +49,4 @@ Below message in Python shell is seen, which indicates that our App is now hoste
 
 HERE'S HOW OUR FRONTEND LOOKS LIKE:
 
-![Customer Retention](https://raw.githubusercontent.com/ama-ku/Telecom-Customer-Churn/main/images/frontend.JPG)
+![Customer Retention](https://raw.githubusercontent.com/aman-ku/Telecom-Customer-Churn/main/images/frontend.JPG)
