@@ -2,18 +2,18 @@
 
 In this repository,I have performed the end to end Exploratory Data Analysis, and idenfitied the characteristics of the customers that are more likely to churn, and  after EDA I used the main features to build model and lately, have deployed the model.
 
-### 🟢 For EDA, please refer to : Churn Analysis - EDA.ipynb
-### 🟢 For Model Building, please refer to: Churn Analysis - Model Building.ipynb
-### 🟢 For Model Deployment, please refer to app.py
+### For EDA, please refer to : Churn Analysis - EDA.ipynb
+### For Model Building, please refer to: Churn Analysis - Model Building.ipynb
+### For Model Deployment, please refer to app.py
 
 
-### 🔵 Creating the flask API
+### Creating the flask API
 
 ```
 app = Flask("__name__")
 ```
 
-The loadPage method calls our home.html.
+The loadPage method renders our home.html.
 ```
 @app.route("/")
 def loadPage():
@@ -31,11 +31,7 @@ The run() method of Flask class runs the application on the local development se
 app.run()
 ```
 
-
-Yay, our model is ready, let’s test our bot.
-The above given Python script is executed from Python shell.
-
-Go to Anaconda Prompt, and run the below query.
+Go to Terminal or Anaconda Prompt, and run the below query.
 ```
 python app.py
 ```
@@ -47,6 +43,6 @@ Below message in Python shell is seen, which indicates that our App is now hoste
 ```
 
 
-HERE'S HOW OUR FRONTEND LOOKS LIKE:
+Here is the User Interface:
 
 ![Customer Retention](https://github.com/aman-ku/Telecom-Customer-Churn/blob/4f148545ee615ee1e6b3ffc0961b1d0b4bd85736/images/frontend.JPG)
