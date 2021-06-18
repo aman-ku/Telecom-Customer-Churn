@@ -2,8 +2,8 @@
 
 In this repository,I have performed the end to end Exploratory Data Analysis, and idenfitied the characteristics of the customers that are more likely to churn, and  after EDA I used the main features to build model and lately, have deployed the model.
 
-### For EDA, please refer to : Churn Analysis - EDA.ipynb
-### For Model Building, please refer to: Churn Analysis - Model Building.ipynb
+### For EDA, please refer to : EDA_TCP.ipynb
+### For Model Building, please refer to: Predictive_TCP.ipynb
 ### For Model Deployment, please refer to app.py
 
 
