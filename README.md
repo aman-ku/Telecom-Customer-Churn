@@ -60,4 +60,4 @@ Below message in Python shell is seen, which indicates that our App is now hoste
 Here is the User Interface:
 >>>>>>> cd415c2655428772f8e3b8e31b4ac379e4673c40
 
-![Customer Retention](https://github.com/aman-ku/Telecom-Customer-Churn/blob/4f148545ee615ee1e6b3ffc0961b1d0b4bd85736/images/frontend.JPG)
+![Customer Retention](https://github.com/aman-ku/Telecom-Customer-Churn/blob/f2ed34ca267640f3c7f5a1c534f1aad4a3a10b1b/images/Screenshot%20from%202021-06-29%2020-54-03.png)
