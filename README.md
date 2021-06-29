@@ -1,13 +1,15 @@
 # Customer Retention
 
+
+## Introduction
 In this repository,I have performed the end to end Exploratory Data Analysis, and idenfitied the characteristics of the customers that are more likely to churn, and  after EDA I used the main features to build model and lately, have deployed the model.
 
-### 🟢 For EDA, please refer to : Churn Analysis - EDA.ipynb
-### 🟢 For Model Building, please refer to: Churn Analysis - Model Building.ipynb
-### 🟢 For Model Deployment, please refer to app.py
+## For EDA, please refer to : Churn Analysis - EDA.ipynb
+## For Model Building, please refer to: Churn Analysis - Model Building.ipynb
+## For Model Deployment, please refer to app.py
 
 
-### 🔵 Creating the flask API
+## Creating the flask API
 
 ```
 app = Flask("__name__")
@@ -47,6 +49,6 @@ Below message in Python shell is seen, which indicates that our App is now hoste
 ```
 
 
-HERE'S HOW OUR FRONTEND LOOKS LIKE:
+## HERE'S HOW OUR FRONTEND LOOKS LIKE:
 
 ![Customer Retention](https://raw.githubusercontent.com/ama-ku/Telecom-Customer-Churn/main/images/frontend.JPG)

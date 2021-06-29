@@ -1,0 +1,23 @@
+body {
+    background-color: #928DAB;
+}
+
+.navbar {
+    background-color: #414345;
+}
+
+a {
+    color: #f1f9f9;
+}
+
+a:hover {
+    color: #f0f0f0;
+}
+
+.aman {
+    color: #f1f9f9;
+}
+
+.label{
+	color: #f1f9f9;
+}

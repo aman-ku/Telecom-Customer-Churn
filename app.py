@@ -7,6 +7,7 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn import metrics
 from flask import Flask, request, render_template
 import pickle
+from flask_cors import cross_origin
 
 app = Flask("__name__")
 
@@ -16,34 +17,14 @@ q = ""
 
 
 @app.route("/")
+@cross_origin()
 def loadPage():
 	return render_template('home.html', query="")
 
 
 @app.route("/", methods=['POST'])
+@cross_origin()
 def predict():
-    
-    '''
-    SeniorCitizen
-    MonthlyCharges
-    TotalCharges
-    gender
-    Partner
-    Dependents
-    PhoneService
-    MultipleLines
-    InternetService
-    OnlineSecurity
-    OnlineBackup
-    DeviceProtection
-    TechSupport
-    StreamingTV
-    StreamingMovies
-    Contract
-    PaperlessBilling
-    PaymentMethod
-    tenure
-    '''
     
     inputQuery1 = request.form['query1']
     inputQuery2 = request.form['query2']
